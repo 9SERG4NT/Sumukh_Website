@@ -191,6 +191,19 @@ const Contact = () => {
                     <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm4.441 16.892c-2.102.144-6.784.144-8.883 0C5.282 16.736 5.017 15.622 5 12c.017-3.629.285-4.736 2.558-4.892 2.099-.144 6.782-.144 8.883 0C18.718 7.264 18.982 8.378 19 12c-.018 3.629-.285 4.736-2.559 4.892zM10 9.658l4.917 2.338L10 14.342V9.658z"/>
                   </svg>
                 </motion.a>
+                <motion.a
+                  href={personal.social.huggingface}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  whileHover={{ scale: 1.1, y: -3 }}
+                  whileTap={{ scale: 0.95 }}
+                  className="w-12 h-12 bg-yellow-500 rounded-2xl flex items-center justify-center text-white hover:bg-yellow-600 transition-colors hoverable"
+                  title="Hugging Face"
+                >
+                  <svg viewBox="0 0 120 120" className="w-5 h-5" fill="currentColor">
+                    <path d="M37.6 62.9c0 5.5-4.5 10-10 10s-10-4.5-10-10 4.5-10 10-10 10 4.5 10 10zm45.3-10c-5.5 0-10 4.5-10 10s4.5 10 10 10 10-4.5 10-10-4.5-10-10-10zm-22.6 0c-5.5 0-10 4.5-10 10s4.5 10 10 10 10-4.5 10-10-4.5-10-10-10zM60 0C26.9 0 0 26.9 0 60s26.9 60 60 60 60-26.9 60-60S93.1 0 60 0zm0 110c-27.6 0-50-22.4-50-50S32.4 10 60 10s50 22.4 50 50-22.4 50-50 50z"/>
+                  </svg>
+                </motion.a>
               </div>
             </div>
           </motion.div>

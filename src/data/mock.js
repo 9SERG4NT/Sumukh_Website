@@ -14,6 +14,7 @@ export const resumeData = {
       leetcode: "https://leetcode.com/u/Sumukh_Chourasia/",
       kaggle: "https://www.kaggle.com/serg4nt",
       unstop: "https://unstop.com/u/sumukbte5658",
+      huggingface: "https://huggingface.co/SERG4NT",
       orcid: "https://orcid.org/0000-0002-5678-9012",
       researchgate: "https://www.researchgate.net/profile/Sumukh-Chourasia"
     }
