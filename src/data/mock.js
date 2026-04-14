@@ -15,7 +15,7 @@ export const resumeData = {
       kaggle: "https://www.kaggle.com/serg4nt",
       unstop: "https://unstop.com/u/sumukbte5658",
       huggingface: "https://huggingface.co/SERG4NT",
-      orcid: "https://orcid.org/0000-0002-5678-9012",
+      orcid: "https://orcid.org/0009-0009-1612-1142",
       researchgate: "https://www.researchgate.net/profile/Sumukh-Chourasia"
     }
   },
@@ -161,6 +161,8 @@ export const resumeData = {
 
   achievements: [
     "Hackathon Winner at IIT Delhi (Top among 500+ teams)",
+    "Best Researcher Award",
+    "1512 FIDE Rated Chess Player",
     "Top 10% in Institute",
     "Undefeated record in SIU Nagpur Campus Chess",
     "Represented SIU at All India University Level in Chess"
