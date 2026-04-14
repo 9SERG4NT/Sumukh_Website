@@ -50,7 +50,8 @@ const About = () => {
   const stats = [
     { icon: FileText, value: research.papers, label: 'IEEE Papers' },
     { icon: FileText, value: research.chapters, label: 'Book Chapters' },
-    { icon: Trophy, value: research.patents, label: 'Patent Published' },
+    { icon: Trophy, value: research.patents, label: 'Patent' },
+    { icon: Trophy, value: research.hackathons, label: 'Hackathons' },
   ];
 
   const containerVariants = {
@@ -174,7 +175,7 @@ const About = () => {
               </div>
 
               {/* Research Stats with 3D effect */}
-              <div className="grid grid-cols-3 gap-4 pt-4">
+              <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 pt-4">
                 {stats.map((stat, index) => (
                   <Card3D key={index}>
                     <motion.div

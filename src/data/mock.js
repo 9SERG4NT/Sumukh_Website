@@ -154,7 +154,8 @@ export const resumeData = {
   research: {
     papers: "2 IEEE Conference Papers",
     chapters: "2 Book Chapters",
-    patents: "1 Patent Published"
+    patents: "1 Patent Published",
+    hackathons: "2x Hackathon Winner"
   },
 
   achievements: [
